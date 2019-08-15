@@ -1,11 +1,12 @@
 body {
     align-content: left;
-    background-color: rgb(88, 11, 59);
+    background-color: grey;
 }
 .jumbotron {
+
     align-content: center;
     font-size: 72;
-    background-color: darkgreen;
+    background-color: grey;
     border-style: solid;
     border-width: 6px;
     border-color: white;
@@ -15,36 +16,36 @@ body {
 
 .col-sm {
     float: left;
-    width: 250px;
+    width: 100%;
     color: white;
     border-style: solid;
     border-color: white; 
 }
 
 .form {
-
-    width: 400px;
-    height: 50px;
+    align-content: center;
+    width: 425px;
     margin-top: 25px;
-    background-color: darkgreen;
+    background-color: lightskyblue;
     border-style: solid;
     border-width: 2px;
     border-color: white;
     color: white;
 }
 
-.row {
-    background-color: darkgreen;
+/* .row {
+    background-color: lightskyblue;
     border-style: solid;
     border-width: 2px;
     border-color: white;
     color: white;
 
-}
+} */
 
-#form1 {
-     border-style: solid;
+/* #form1 {
+
+    border-style: solid;
     border-width: 2px;
     border-color: white;
 
-}
+} */
