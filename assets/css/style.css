@@ -1,0 +1,50 @@
+body {
+    align-content: left;
+    background-color: rgb(88, 11, 59);
+}
+.jumbotron {
+    align-content: center;
+    font-size: 72;
+    background-color: darkgreen;
+    border-style: solid;
+    border-width: 6px;
+    border-color: white;
+    color: white;
+}
+ 
+
+.col-sm {
+    float: left;
+    width: 250px;
+    color: white;
+    border-style: solid;
+    border-color: white; 
+}
+
+.form {
+
+    width: 400px;
+    height: 50px;
+    margin-top: 25px;
+    background-color: darkgreen;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+}
+
+.row {
+    background-color: darkgreen;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+
+}
+
+#form1 {
+     border-style: solid;
+    border-width: 2px;
+    border-color: white;
+
+}
