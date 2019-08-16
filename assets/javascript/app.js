@@ -10,7 +10,7 @@ function submitInfo() {
     var trainName = document.getElementById("train-name").value;
     var destination = document.getElementById("train-destination").value;
     var firstTime = document.getElementById("first-time").value;
-    var frequencyMins = document.getElementById("trainFrequency").value;
+    var frequency = document.getElementById("trainFrequency").value;
     var firstTimeConverted = moment(firstTime, "HH:mm").subtract(1, "years");
     var currentTime = moment();
     var diffTime = moment().diff(moment(firstTimeConverted), "minutes");
@@ -46,7 +46,7 @@ function submitInfo() {
     newCell5.appendChild(newText5);
 }
     
-   
+function localForage ()
 
 
 
