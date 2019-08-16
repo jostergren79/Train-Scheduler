@@ -1,50 +1,62 @@
 body {
     align-content: left;
-    background-color: rgb(88, 11, 59);
+    background-color: lightseagreen;
+    background-image: url(https://cdn.pixabay.com/photo/2012/10/10/05/04/locomotive-60539__340.jpg)
 }
 .jumbotron {
+    color: white;
     align-content: center;
     font-size: 72;
-    background-color: darkgreen;
+    background-color: lightgray;
     border-style: solid;
     border-width: 6px;
-    border-color: white;
-    color: white;
+    border-color: grey;
+    text-align: center;
+    background-image: url(https://cdn.pixabay.com/photo/2012/10/10/05/04/locomotive-60539__340.jpg)
+}
+
+header {
+    background-color: red;
+    border-style: solid;
+    border-color: black;
+    color: black;
 }
  
 
-.col-sm {
-    float: left;
-    width: 250px;
-    color: white;
+.table {
+    background-color: orange;
+    align-content: center;
+    color: black;
     border-style: solid;
-    border-color: white; 
+    border-width: 2px;
+    border-color: grey;
+
 }
 
-.form {
 
-    width: 400px;
-    height: 50px;
+
+.btn {
+    background-color: blue;
+    align-content: center;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: blue;
+    width: 500px;
+    margin-left: 200px;
+
+}
+
+form {
     margin-top: 25px;
-    background-color: darkgreen;
+    background-color: yellow;
+    align-content: center;
+    color: black;
     border-style: solid;
     border-width: 2px;
-    border-color: white;
-    color: white;
-}
+    border-color: grey;
+    width: 500px;
+    margin-left: 200px;
 
-.row {
-    background-color: darkgreen;
-    border-style: solid;
-    border-width: 2px;
-    border-color: white;
-    color: white;
-
-}
-
-#form1 {
-     border-style: solid;
-    border-width: 2px;
-    border-color: white;
 
 }
