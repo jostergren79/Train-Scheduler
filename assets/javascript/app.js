@@ -47,27 +47,27 @@ function submitInfo() {
     newCell5.appendChild(newText5);
 }
     
-// working on local forage functionality to store data
+// // working on local forage functionality to store data
 
-let data = {
-    trainName: trainName,
-    destination: destination,
-    firstTrainTime: firstTrainTime,
-    frequencyMins: frequencyMins,
-}
+// let data = {
+//     trainName: trainName,
+//     destination: destination,
+//     firstTrainTime: firstTrainTime,
+//     frequencyMins: frequencyMins,
+// }
     
-let value = document.querySelector("td").value;
-    localforage.getItem("saved").then(function(result){
-        if(!result){
-        result = [];
-        }
-        result.push(data);
-        localforage.setItem("saved", result)
+// let value = document.querySelector("td").value;
+//     localforage.getItem("saved").then(function(result){
+//         if(!result){
+//         result = [];
+//         }
+//         result.push(data);
+//         localforage.setItem("saved", result)
     
-        .then(function(){
-            console.log("saved")
-            console.log(result);
+//         .then(function(){
+//             console.log("saved")
+//             console.log(result);
 
-        });
-    })
+//         });
+//     })
     
