@@ -17,7 +17,7 @@
              
         </div>    
 
-        <table class="table" action="" style="width: 800px; margin: auto">
+        <table id="trainTable" class="table" action="" style="width: 800px; margin: auto">
             <thead> 
 
                 <tr>
@@ -40,7 +40,7 @@
             </tbody>
         </table>
 
-        
+
         <div id="container">    
         <form id="form">
 
@@ -56,17 +56,17 @@
 
             <div class="form">
                 <label>First Train Time (24hour clock)</label>
-                <input type="text" id="first-train-time"> 
+                <input type="text" id="first-time"> 
             </div>
 
             <div class="form">
                 <label>Frequency(min)</label>
-                <input id="frequency">
+                <input id="trainFrequency">
             </div>
 
         </form> 
 
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button id="button" type="submit" class="btn btn-primary">Submit</button>
 
     </div>
 
@@ -75,4 +75,5 @@
 
 
 <script src="../Train-Scheduler/assets/javascript/app.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.js" integrity="sha256-H9jAz//QLkDOy/nzE9G4aYijQtkLt9FvGmdUTwBk6gs=" crossorigin="anonymous"></script>
 </html>
