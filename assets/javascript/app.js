@@ -42,12 +42,9 @@ document.querySelector("button").addEventListener("click", function(event) {
     newCell4.appendChild(newText4);
     let newText5  = document.createTextNode(tMinutesTillTrain);
     newCell5.appendChild(newText5);
-    
-};
-
-submitInfo();
-
-})
+    }
+    submitInfo()
+});
 
     
 
