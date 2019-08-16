@@ -1,5 +1,6 @@
 body {
     align-content: left;
+<<<<<<< HEAD
     background-color: lightseagreen;
     background-image: url(https://cdn.pixabay.com/photo/2012/10/10/05/04/locomotive-60539__340.jpg)
 }
@@ -8,6 +9,15 @@ body {
     align-content: center;
     font-size: 72;
     background-color: lightgray;
+=======
+    background-color: grey;
+}
+.jumbotron {
+
+    align-content: center;
+    font-size: 72;
+    background-color: grey;
+>>>>>>> 7b78a5435aa5ddb544477ffdb26ee4b40560a76c
     border-style: solid;
     border-width: 6px;
     border-color: grey;
@@ -15,43 +25,68 @@ body {
     background-image: url(https://cdn.pixabay.com/photo/2012/10/10/05/04/locomotive-60539__340.jpg)
 }
 
+<<<<<<< HEAD
 header {
     background-color: red;
+=======
+.col-sm {
+    float: left;
+    width: 100%;
+    color: white;
+>>>>>>> 7b78a5435aa5ddb544477ffdb26ee4b40560a76c
     border-style: solid;
     border-color: black;
     color: black;
 }
  
 
+<<<<<<< HEAD
 .table {
     background-color: orange;
     align-content: center;
     color: black;
+=======
+.form {
+    align-content: center;
+    width: 425px;
+    margin-top: 25px;
+    background-color: lightskyblue;
+>>>>>>> 7b78a5435aa5ddb544477ffdb26ee4b40560a76c
     border-style: solid;
     border-width: 2px;
     border-color: grey;
 
 }
 
+<<<<<<< HEAD
 
 
 .btn {
     background-color: blue;
     align-content: center;
     color: white;
+=======
+/* .row {
+    background-color: lightskyblue;
+>>>>>>> 7b78a5435aa5ddb544477ffdb26ee4b40560a76c
     border-style: solid;
     border-width: 2px;
     border-color: blue;
     width: 500px;
     margin-left: 200px;
 
-}
+} */
 
+/* #form1 {
+
+<<<<<<< HEAD
 form {
     margin-top: 25px;
     background-color: yellow;
     align-content: center;
     color: black;
+=======
+>>>>>>> 7b78a5435aa5ddb544477ffdb26ee4b40560a76c
     border-style: solid;
     border-width: 2px;
     border-color: grey;
@@ -59,4 +94,4 @@ form {
     margin-left: 200px;
 
 
-}
+} */
