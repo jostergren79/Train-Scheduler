@@ -18,7 +18,7 @@ function submitInfo() {
     let frequencyMins = document.getElementById("frequency").value;
     array.push(trainName,destination,firstTrainTime,frequencyMins);
     console.log(array)
-    console.log(trainName)
+  
 };
 
 submitInfo() 
